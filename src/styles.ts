@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
     body{
     font-family: "Inter", sans-serif;
     padding-top: 80px;
+    padding-bottom:80px;
 
     @media (max-width: 768) {
     padding-top: 16px;
@@ -28,8 +29,5 @@ export const Container = styled.div`
   @media (max-width: 768) {
     max-width: 80%;
     display: block;
-  }
-  img {
-    max-width: 100%;
   }
 `;

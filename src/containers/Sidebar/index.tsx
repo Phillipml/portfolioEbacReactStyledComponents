@@ -1,10 +1,22 @@
+import Avatar from "../../components/Avatar";
+import Text from "../../components/Text";
 import Title from "../../components/Title";
+import { Description, BtnTheme, SideBarContainer } from "./styled";
 
 const Sidebar = () => {
   return (
     <aside>
-      <img src="https://github.com/Phillipml.png" alt="" />
-      <Title fontSize={20}>Phillip Menezes</Title>
+      <SideBarContainer>
+        <Avatar />
+        <Title fontSize={20}>Phillip Menezes</Title>
+        <Text txtType="secondary" fontSize={16}>
+          Phillipml
+        </Text>
+        <Description txtType="primary" fontSize={12}>
+          Full Stack Developer
+        </Description>
+        <BtnTheme>Trocar tema</BtnTheme>
+      </SideBarContainer>
     </aside>
   );
 };
