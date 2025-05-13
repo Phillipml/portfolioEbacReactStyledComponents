@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <aside>
       <img src="https://github.com/Phillipml.png" alt="" />
-      <Title title="Phillip Menezes" fontSize={20} />
+      <Title fontSize={20}>Phillip Menezes</Title>
     </aside>
   );
 };

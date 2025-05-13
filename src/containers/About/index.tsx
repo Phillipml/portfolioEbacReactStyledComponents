@@ -5,7 +5,7 @@ import GitSection from "./styles";
 const About = () => {
   return (
     <section>
-      <Title title="Sobre Mim" fontSize={16} />
+      <Title fontSize={16}>Sobre Mim</Title>
       <Text txtType="secondary">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quam
         maxime debitis? Omnis hic placeat, dolores rem assumenda et provident
